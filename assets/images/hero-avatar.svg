@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+    <rect width="400" height="400" fill="#eef2ff"/>
+    <circle cx="200" cy="160" r="70" fill="#3b82f6" opacity="0.2"/>
+    <path fill="#2563eb" d="M200,100 L220,150 L270,155 L230,190 L245,240 L200,210 L155,240 L170,190 L130,155 L180,150 Z" opacity="0.8"/>
+    <text x="200" y="310" text-anchor="middle" fill="#1e40af" font-size="24" font-family="Arial">⚡ Creativo</text>
+</svg>
