@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <meta name="description" content="Portafolio profesional de Juan Camacho - Diseñador y Desarrollador Web especializado en soluciones responsivas">
+    <meta name="author" content="Juan Camacho">
+    <title>Portafolio Profesional | Juan Camacho</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">Juan Camacho</div>
+            <button class="menu-toggle" id="mobileMenuBtn" aria-label="Menú">☰</button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+
+<main>
+    <!-- SECCIÓN PRINCIPAL (HERO) -->
+    <section id="inicio" class="hero">
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <h1>Hola, soy <span class="highlight">Juan Camacho</span><br> Diseñador & Desarrollador Web</h1>
+                <p>Transformo ideas en experiencias digitales modernas, responsivas y centradas en el usuario. Más de 5 años creando soluciones que marcan la diferencia.</p>
+                <a href="#contacto" class="btn">Contáctame →</a>
+            </div>
+            <div class="hero-image">
+                <img src="assets/images/hero-avatar.svg" alt="Juan Camacho - Diseñador y Desarrollador Web">
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN PRODUCTOS -->
+    <section id="productos" class="products">
+        <div class="container">
+            <h2 class="section-title">Productos Digitales</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-icon">📱</div>
+                    <h3>App Moderna</h3>
+                    <p>Diseño UI/UX para apps nativas y progresivas, con enfoque en rendimiento y accesibilidad.</p>
+                    <span class="badge">Flutter • React Native</span>
+                </div>
+                <div class="product-card">
+                    <div class="product-icon">🌐</div>
+                    <h3>Landing Pages</h3>
+                    <p>Páginas de alta conversión, optimizadas para SEO y velocidad mobile-first.</p>
+                    <span class="badge">HTML5 • CSS3 • JS</span>
+                </div>
+                <div class="product-card">
+                    <div class="product-icon">🛒</div>
+                    <h3>E-commerce</h3>
+                    <p>Tiendas online escalables con pasarelas de pago y dashboard admin.</p>
+                    <span class="badge">Shopify • WooCommerce</span>
+                </div>
+                <div class="product-card">
+                    <div class="product-icon">⚙️</div>
+                    <h3>Dashboards</h3>
+                    <p>Sistemas de gestión interactivos con gráficas en tiempo real.</p>
+                    <span class="badge">React • Tailwind</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN NOSOTROS -->
+    <section id="nosotros" class="about">
+        <div class="container about-wrapper">
+            <div class="about-text">
+                <h2>👥 Sobre nosotros</h2>
+                <p>Somos un equipo creativo apasionado por la tecnología y el diseño centrado en las personas. Creemos que cada proyecto debe contar una historia única y resolver problemas reales.</p>
+                <p>Nuestra misión: entregar soluciones robustas con un enfoque estético impecable, garantizando que cada sitio se adapte a cualquier dispositivo.</p>
+                <div class="skills">
+                    <span class="skill-tag">UX Research</span>
+                    <span class="skill-tag">Frontend</span>
+                    <span class="skill-tag">Responsive Design</span>
+                    <span class="skill-tag">Accesibilidad</span>
+                    <span class="skill-tag">Animaciones CSS</span>
+                </div>
+            </div>
+            <div class="about-image">
+                <img src="assets/images/team-illustration.svg" alt="Ilustración equipo ágil">
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN CONTACTO -->
+    <section id="contacto" class="contact">
+        <div class="container">
+            <h2 class="section-title">Hablemos de tu proyecto</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>📬 Información de contacto</h3>
+                    <p>¿Tienes alguna idea o necesitas asesoría? Escríbenos y te responderemos en menos de 24h.</p>
+                    <div class="contact-detail">
+                        <span>📍</span> <span>Guadalajara / Remoto</span>
+                    </div>
+                    <div class="contact-detail">
+                        <span>📞</span> <span>+52 33 2352 2605</span>
+                    </div>
+                    <div class="contact-detail">
+                        <span>✉️</span> <span>camlopjp@gmail.com</span>
+                    </div>
+                    <div class="contact-detail">
+                        <span>🌐</span> <span>@camlopjp_ig</span>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm" action="#" method="post">
+                        <div class="form-group">
+                            <input type="text" id="nombre" placeholder="Nombre completo" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Correo electrónico" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea rows="4" placeholder="Cuéntanos sobre tu proyecto..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn-submit">Enviar mensaje →</button>
+                        <p style="font-size: 0.75rem; margin-top: 0.8rem; text-align: center; color:#475569;">* Recibirás respuesta en breve</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-logo">Juan Camacho Portfolio</div>
+            <div class="footer-links">
+                <a href="#inicio">Inicio</a>
+                <a href="#productos">Productos</a>
+                <a href="#nosotros">Nosotros</a>
+                <a href="#contacto">Contacto</a>
+            </div>
+            <div>✨ Diseño con ❤️ y enfoque responsive</div>
+        </div>
+        <div class="copyright">
+            &copy; 2025 Juan Camacho - Portafolio profesional. Todos los derechos reservados.
+        </div>
+    </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
