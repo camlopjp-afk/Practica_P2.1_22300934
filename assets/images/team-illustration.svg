@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+    <rect width="400" height="400" fill="#ffffff"/>
+    <circle cx="200" cy="150" r="70" fill="#2563eb" opacity="0.2"/>
+    <path fill="#3b82f6" d="M130,270 L270,270 L250,330 L150,330 Z" opacity="0.6"/>
+    <rect x="160" y="200" width="80" height="70" fill="#94a3b8" opacity="0.4"/>
+    <text x="200" y="360" text-anchor="middle" fill="#1f2937" font-size="20">🌟 Equipo Ágil</text>
+</svg>
